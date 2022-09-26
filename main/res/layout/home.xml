@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/butt"
+    tools:context=".home">
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="open6"
+        android:text="RETURN BOOK"
+        app:backgroundTint="#9E9797"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toEndOf="@+id/b5"
+        app:layout_constraintTop_toBottomOf="@+id/b4"
+        app:layout_constraintVertical_bias="0.18"
+        android:layout_marginRight="4dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:onClick="open1"
+        android:text="ADD Book"
+        android:textColor="@color/black"
+        app:backgroundTint="#9E9797"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:onClick="open2"
+        android:text="ADD STUDENT"
+        app:backgroundTint="#9E9797"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:onClick="open3"
+        android:text="BOOK DETAILS"
+        app:backgroundTint="#9E9797"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:layout_constraintVertical_bias="0.142"
+        android:layout_marginLeft="16dp" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:onClick="open4"
+        android:text="STUDENT DETAILS"
+        android:textColor="@color/black"
+        app:backgroundTint="#9E9797"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b3"
+        app:layout_constraintTop_toBottomOf="@+id/b2"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="4dp"
+        android:onClick="open5"
+        android:text="ISSUE BOOK"
+        android:textColor="@color/black"
+        app:backgroundTint="#9E9797"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b3"
+        app:layout_constraintVertical_bias="0.18"
+        android:layout_marginLeft="4dp" />
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:onClick="open7"
+        android:text="STATICS"
+        android:textColor="@color/black"
+        app:backgroundTint="#9E9797"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:rotation="360"
+        android:rotationX="360"
+        android:text="My Library"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b7"
+        app:layout_constraintVertical_bias="0.467" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
